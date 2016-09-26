@@ -1,0 +1,14 @@
+
+ /*
+  * Project CSS
+  *
+  *
+  */
+.projects .project-box {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.bg-white {
+    background: #ffffff none repeat scroll 0 0 !important;
+    color: inherit;
+}

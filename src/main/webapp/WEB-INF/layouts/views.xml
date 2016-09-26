@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="index" extends="DashboardTemplate" />
+	
+	<definition name="login" extends="LandingTemplate">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/templates/landing/login.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	<definition name="register" extends="LandingTemplate">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/templates/landing/register.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	
+	<definition name="forgotPassword" extends="LandingTemplate">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/templates/landing/forgotPassword.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	<definition name="changePassword" extends="LandingTemplate">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/templates/landing/changePassword.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	<definition name="updatePassword" extends="LandingTemplate">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/templates/landing/updatePassword.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	<definition name="uploadFile" extends="LandingTemplate">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/upload.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	<definition name="uploadMultipleFile" extends="LandingTemplate">
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/uploadMultiple.jsp" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	
+	<definition name="home" extends="DashboardTemplate"/>
+	<definition name="user" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user.jsp" />
+	</definition>
+	<definition name="projects" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/projects.jsp" />
+	</definition>
+	<definition name="projectdetails" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/projectdetails.jsp" />
+	</definition>
+	<definition name="projectsTable" extends="SimplePageTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/projectsTable.jsp" />
+	</definition>
+	<definition name="projectsPlanning" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/projectsPlanning.jsp" />
+	</definition>
+	
+	<definition name="orders" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/orders.jsp" />
+	</definition>
+	<definition name="orderdetails" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/orderdetails.jsp" />
+	</definition>
+	<definition name="ordersTable" extends="SimplePageTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/ordersTable.jsp" />
+	</definition>
+	
+	<definition name="jobs" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/jobs.jsp" />
+	</definition>
+	<definition name="jobdetails" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/jobdetails.jsp" />
+	</definition>
+	<definition name="jobsTable" extends="SimplePageTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/jobsTable.jsp" />
+	</definition>
+	<definition name="timesheets" extends="DashboardTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/timesheets.jsp" />
+	</definition>
+</tiles-definitions>

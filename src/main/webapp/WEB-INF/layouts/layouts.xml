@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="DashboardTemplate"
+		template="/WEB-INF/views/templates/dashboard/dashboardTemplate.jsp">
+
+		<put-attribute name="title" value="Monitor homepage" />
+		<put-attribute name="header" value="/WEB-INF/views/templates/dashboard/header.jsp" />
+		<put-attribute name="mainSidebar" value="/WEB-INF/views/templates/dashboard/mainSidebar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/views/templates/dashboard/body.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/templates/dashboard/footer.jsp" />
+		<put-list-attribute name="jsList" cascade="true">
+			<add-attribute value="resources/js/intranet.js" />
+		</put-list-attribute>
+	</definition>
+	<definition name="LandingTemplate"
+		template="/WEB-INF/views/templates/landing/LandingTemplate.jsp">
+
+		<put-attribute name="title" value="Monitor homepage" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/templates/landing/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/templates/landing/body.jsp" />
+		<put-attribute name="register"
+			value="/WEB-INF/views/templates/landing/register.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/templates/landing/footer.jsp" />
+		<put-list-attribute name="jsList" cascade="true">
+			<add-attribute value="resources/js/intranet.js" />
+		</put-list-attribute>
+	</definition>
+
+	<definition name="LandingTemplate"
+		template="/WEB-INF/views/templates/landing/LandingTemplate.jsp">
+
+		<put-attribute name="title" value="Intranet homepage" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/templates/landing/header.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/templates/landing/body.jsp" />
+		<put-attribute name="register"
+			value="/WEB-INF/views/templates/landing/register.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/templates/landing/footer.jsp" />
+		<put-list-attribute name="jsList" cascade="true">
+			<add-attribute value="resources/js/intranet.js" />
+		</put-list-attribute>
+	</definition>
+	<definition name="SimplePageTemplate"
+		template="/WEB-INF/views/templates/simplePages/SimplePageTemplate.jsp">
+
+		
+		<put-attribute name="body"
+			value="" />
+		
+		<put-list-attribute name="jsList" cascade="true">
+			<add-attribute value="resources/js/intranet.js" />
+		</put-list-attribute>
+	</definition>
+
+</tiles-definitions>
